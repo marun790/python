@@ -1,5 +1,3 @@
-
-
 from shopping_cart.domain.product import Product
 
 
