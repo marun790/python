@@ -38,4 +38,3 @@ lint.select = ["I00", "E", "F", "W"]
 testpaths = ["tests"]
 python_files = "test_*.py"
 pythonpath = ["src"]
-addopts = "-s"  # Show print statements and stdout

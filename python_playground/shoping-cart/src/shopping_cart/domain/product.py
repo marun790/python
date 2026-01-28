@@ -1,9 +1,7 @@
 from dataclasses import dataclass
 
 
-@dataclass
+@dataclass(frozen=True)
 class Product:
-
-    def __init__(self, name: str, price: float):
-        self.name = name
-        self.price = price
+    name: str
+    price: float
